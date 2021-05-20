@@ -15,6 +15,7 @@ export default defineComponent({
 body {
     margin: 0;
     padding: 0;
+    font-size: 12px;
 }
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;

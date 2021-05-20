@@ -19,7 +19,9 @@
       "dom"
     ],
     "types": [
-      "vite/client"
+      "vite/client",
+      "jest",
+      "@vue/test-utils",
     ],
   },
   "include": [

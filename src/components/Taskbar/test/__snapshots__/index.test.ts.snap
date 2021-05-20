@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`点击底部导航条按钮切换昵称测试 1`] = `
+"<div title=\\"456\\"> 底部任务栏 <button>点击切换昵称</button>
+  <p>PP</p>
+</div>"
+`;

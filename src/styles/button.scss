@@ -1,0 +1,8 @@
+.base-button {
+    &:hover {
+        background: $buttonHoverBackgroundColor;
+    }
+    &:active {
+        background: $buttonActiveBackgroundColor;
+    }
+}
