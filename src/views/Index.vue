@@ -33,7 +33,7 @@ export default defineComponent({
 
         // 禁用默认右键上下文
         onMounted(() => {
-            document.oncontextmenu = function () {
+            document.oncontextmenu = function() {
                 return false
             }
         })

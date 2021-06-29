@@ -1,6 +1,6 @@
 <template>
     <div class="web-windows-base-button">
-        <slot />
+        <slot></slot>
     </div>
 </template>
 

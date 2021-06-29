@@ -1,7 +1,10 @@
 <template>
     <div class="web-windows-taskbar" @contextmenu="onShowMenu($event, true)">
         <div class="web-windows-taskbar-left">
-            <div class="web-windows-taskbar-left-windows-button base-button" :title="t('windowButtonTitle')">
+            <div
+                class="web-windows-taskbar-left-windows-button base-button"
+                :title="t('windowButtonTitle')"
+            >
                 <div class="web-windows-taskbar-left-windows-button-in">
                     <div class="windows-icon">
                         <div></div>
@@ -23,16 +26,22 @@
             </div>
             <div class="web-windows-taskbar-right-back-deskTop base-button"></div>
         </div>
+        <!-- <teleport to="#app">
+            <content-menu />
+        </teleport> -->
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, Events, reactive, ref } from "vue"
+import { defineComponent, reactive, ref } from "vue"
 import { useTranslate } from "~/utils/useTranslate"
 import moment from "moment"
+// import contentMenu from "./contentMenu.vue";
 export default defineComponent({
     name: "taskbar",
-    components: {},
+    components: {
+        // contentMenu,
+    },
     setup() {
         const t = useTranslate()
         const showMenu = ref(false)
